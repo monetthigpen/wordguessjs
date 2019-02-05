@@ -1,3 +1,10 @@
 var inquirer = require("inquirer");
 inquirer
-    .prompt
+    .prompt([
+        {
+             type: "input",
+             message: "Which letter would you like to guess?"
+
+        }
+       
+    ])

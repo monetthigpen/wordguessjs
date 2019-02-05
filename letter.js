@@ -15,7 +15,7 @@ function Letters(){
         }
 
         }
-        
-    }
-}
+         }
+
+this.guesses();
 module.exports = Letters;
